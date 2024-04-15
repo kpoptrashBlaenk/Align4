@@ -64,10 +64,8 @@ window.addEventListener("load", () => {
         btnStart.style.display = 'none'
         inputRows.style.display = 'none'
         inputColumns.style.display = 'none'
-        inputSolutions.style.display = 'none'
         labelRows.style.display = 'none'
         labelColumns.style.display = 'none'
-        labelSolutions.style.display = 'none'
     }
 
     //solve diagonal1
