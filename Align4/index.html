@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Align 4</title>
+    <style>
+        .container {
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            border-radius: 25px;
+            background-color: white;
+            float: left;
+            display: table-row;
+        }
+
+        .cell {
+            display: table-cell
+        }
+    </style>
+</head>
+<body>
+<div style="display:flex;justify-content:center;align-items:center;margin-top:200px">
+    <table id="table" style="display:none"></table>
+
+    <div style="margin:5px">
+        <label id="labelRows" for="rows">Rows:</label>
+        <input id="rows" type="number" min="4" max="10">
+    </div>
+
+    <div style="margin:5px">
+        <label id="labelColumns" for="columns">Columns:</label>
+        <input id="columns" type="number" min="4" max="10">
+    </div>
+
+    <div style="margin:5px">
+        <label id="labelSolutions" for="solutions">Align:</label>
+        <input id="solutions" type="number" min="4" max="10">
+    </div>
+
+    <button id="start">Start</button>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
