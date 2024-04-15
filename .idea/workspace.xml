@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38239a5b-f370-4c78-bb64-6a9bf0eeff54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Align4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Align4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Align4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Align4/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2f867Euqh3Zf21QOhZLOlQDVDDV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -53,6 +56,8 @@
       <updated>1713170188850</updated>
       <workItem from="1713170190561" duration="1247000" />
       <workItem from="1713171679526" duration="54000" />
+      <workItem from="1713171801286" duration="48000" />
+      <workItem from="1713172048634" duration="129000" />
     </task>
     <servers />
   </component>
