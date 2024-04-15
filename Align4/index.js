@@ -4,13 +4,10 @@ window.addEventListener("load", () => {
     const btnStart = document.getElementById('start')
     const inputRows = document.getElementById('rows')
     const inputColumns = document.getElementById('columns')
-    const inputSolutions = document.getElementById('solutions')
     const labelRows = document.getElementById('labelRows')
     const labelColumns = document.getElementById('labelColumns')
-    const labelSolutions = document.getElementById('labelSolutions')
 
     btnStart.addEventListener('click', () => {
-        alignSolutions = inputSolutions.value
         const height = inputRows.value
         const length = inputColumns.value
         if (height >= 4 && height <= 10 && length >= 4 && length <= 10) {
@@ -42,8 +39,6 @@ window.addEventListener("load", () => {
     const playerColor = ['red', 'blue']
 
     let turn = 0
-
-    let alignSolutions = 0
 
     let holesAll = [];
 
